@@ -171,6 +171,17 @@ docker-compose up -d # Iniciar contenedor
 docker-compose down # Detener contenedor
 docker-compose logs # Ver logs
 ```
+---
+
+## Imágenes
+<img width="1511" alt="Prueba 7" src="https://github.com/user-attachments/assets/6af094a5-f625-4d05-afb8-fc5bc9e10056" />
+<img width="1511" alt="Prueba 5" src="https://github.com/user-attachments/assets/924d0df1-4fdc-446a-a367-c62c9e25db33" />
+<img width="1510" alt="Prueba 4" src="https://github.com/user-attachments/assets/caa0e69f-8e2b-4a79-bfc8-597eb59c53b2" />
+<img width="1511" alt="Prueba 3" src="https://github.com/user-attachments/assets/a2343f17-39fb-43f4-9868-343631f1fafa" />
+<img width="1510" alt="Prueba 2" src="https://github.com/user-attachments/assets/3b165e8f-03ee-4ee9-b41d-28e1f2656ddf" />
+<img width="1511" alt="Prueba 1" src="https://github.com/user-attachments/assets/405bb1db-07ba-4920-a5b1-7119823820d3" />
+<img width="1511" alt="Prueba 9" src="https://github.com/user-attachments/assets/7e13f5c6-6b07-4ad7-90f0-598cecd393ad" />
+<img width="1511" alt="Prueba 8" src="https://github.com/user-attachments/assets/9ccb2d23-bb9f-4724-8218-3e14d74ed423" />
 
 ## 🛑 Solución de Errores Comunes
 1️⃣ **Error 500 - Internal Server Error**
