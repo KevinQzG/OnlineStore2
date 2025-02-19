@@ -1,0 +1,63 @@
+<th:block th:fragment="header">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="fas fa-store"></i> Online Store
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" th:href="@{/}">
+            <i class="fas fa-home"></i> Inicio
+          </a>
+          <a class="nav-link" th:href="@{/about}">
+            <i class="fas fa-info-circle"></i> Sobre nosotros
+          </a>
+          <a class="nav-link" th:href="@{/products}">
+            <i class="fas fa-box"></i> Productos
+          </a>
+          <a class="nav-link" th:href="@{/products/create}">
+            <i class="fas fa-plus-circle"></i> Crear Producto
+          </a>
+          <a class="nav-link" th:href="@{/contact}">
+            <i class="fas fa-envelope"></i> Contáctenos
+        </a>        
+        </div>
+
+        <!-- Search Bar -->
+        <form class="d-flex ms-3">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+        <!-- Login Button -->
+        <a href="#" class="btn btn-primary ms-3">
+          <i class="fas fa-user"></i> Ingresar
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="masthead text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <br>
+      <h1 class="masthead-heading text-uppercase mb-0">Prueba Kevin Quiroz</h1>
+      </a>
+    </div>
+  </header>
+</th:block>

@@ -1,0 +1,95 @@
+# Archivos generados automáticamente que no deben subirse al repositorio
+
+# Ignorar la carpeta de compilación de Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Archivos de configuración específicos de STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# Archivos específicos de IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+*.log
+*.swp
+
+# Archivos específicos de NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Archivos específicos de Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Ignorar archivos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignorar archivos de sistema macOS
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.DS_Store
+.fseventsd
+
+# Archivos de logs y dumps
+*.log
+*.trace
+hs_err_pid*
+*.pid
+dump.rdb
+
+# Ignorar dependencias descargadas por Maven
+.mvn/
+**/target/
+dependency-reduced-pom.xml
+
+# Ignorar credenciales y configuraciones de usuario
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar archivos de caché y temporales
+*.cache
+*.bak
+*.swp
+*.swo
+
+# Archivos de seguridad (claves y certificados)
+*.pem
+*.crt
+*.key
+*.pfx
+
+# Archivos de configuración específicos de la aplicación
+HELP.md
